@@ -21,7 +21,7 @@ spam.system("ls -al")
 
 ## Note regarding `distutils`
 
-While current Python documentation on extending Python still uses `distutils`, it's worth mentioning that `distutils` is being phased out and `setuptools` is [recommended](https://docs.python.org/3/distributing/index.html) as a replacement for `distutils`.
+Currently, as of version 3.11 [Python documentation](https://docs.python.org/3.11/extending/building.html#building-c-and-c-extensions-with-distutils) still uses `distutils`. It's worth mentioning that direct usage of `distutils` is being phased out and `setuptools` is [recommended](https://docs.python.org/3.10/distributing/index.html) as a replacement for `distutils`.
 
 If you would like to use `setuptools`, simply change the following line in `setup.py`
 
